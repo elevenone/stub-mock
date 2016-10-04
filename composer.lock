@@ -1,0 +1,503 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "23fa5bea15f6121432136c7e84c13eb8",
+    "content-hash": "c941fe09f4cec777f150e5df8235fac1",
+    "packages": [
+        {
+            "name": "aura/di",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Di.git",
+                "reference": "76824bdeae99e46e6ae06f29e4bdf86063da86b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/76824bdeae99e46e6ae06f29e4bdf86063da86b9",
+                "reference": "76824bdeae99e46e6ae06f29e4bdf86063da86b9",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "provide": {
+                "container-interop/container-interop-implementation": "^1.0"
+            },
+            "require-dev": {
+                "acclimate/container": "~1.0",
+                "mouf/picotainer": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Di\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Di Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Di/contributors"
+                }
+            ],
+            "description": "A serializable dependency injection container with constructor and setter injection, interface and trait awareness, configuration inheritance, and much more.",
+            "homepage": "https://github.com/auraphp/Aura.Di",
+            "keywords": [
+                "container",
+                "dependency injection",
+                "dependency injection container",
+                "di",
+                "di container"
+            ],
+            "time": "2016-10-04 15:52:29"
+        },
+        {
+            "name": "aura/html",
+            "version": "2.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Html.git",
+                "reference": "7f575f35765af41091b85b23a92b168ae0c5765f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Html/zipball/7f575f35765af41091b85b23a92b168ae0c5765f",
+                "reference": "7f575f35765af41091b85b23a92b168ae0c5765f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "aura/di": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "aura": {
+                    "type": "library",
+                    "config": {
+                        "common": "Aura\\Html\\_Config\\Common"
+                    }
+                },
+                "branch-alias": {
+                    "dev-develop-2": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Html\\": "src/",
+                    "Aura\\Html\\_Config\\": "config/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Html Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Html/contributors"
+                }
+            ],
+            "description": "Provides HTML escapers and helpers, including form input helpers.",
+            "homepage": "https://github.com/auraphp/Aura.Html",
+            "keywords": [
+                "Escape",
+                "escaper",
+                "escapers",
+                "escaping",
+                "form",
+                "helper",
+                "helpers",
+                "html",
+                "input"
+            ],
+            "time": "2015-03-27 17:31:31"
+        },
+        {
+            "name": "aura/router",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Router.git",
+                "reference": "6daebc9747e26a6fdd545d1ed5982b276f17b7a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/6daebc9747e26a6fdd545d1ed5982b276f17b7a2",
+                "reference": "6daebc9747e26a6fdd545d1ed5982b276f17b7a2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "psr/http-message": "~1.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "zendframework/zend-diactoros": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Router Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Router/contributors"
+                }
+            ],
+            "description": "Powerful, flexible web routing for PSR-7 requests.",
+            "homepage": "https://github.com/auraphp/Aura.Router",
+            "keywords": [
+                "psr-7",
+                "route",
+                "router",
+                "routing"
+            ],
+            "time": "2016-10-03 21:48:40"
+        },
+        {
+            "name": "aura/view",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.View.git",
+                "reference": "57296d7357fd34412436ce4028cfd3ce3e08f049"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.View/zipball/57296d7357fd34412436ce4028cfd3ce3e08f049",
+                "reference": "57296d7357fd34412436ce4028cfd3ce3e08f049",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "aura/di": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "aura": {
+                    "type": "library",
+                    "config": {
+                        "common": "Aura\\View\\_Config\\Common"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aura\\View\\": "src/",
+                    "Aura\\View\\_Config\\": "config/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.View Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.View/contributors"
+                }
+            ],
+            "description": "Provides an implementation of the TemplateView and TwoStepView patterns, with support for helpers and for closures as templates, using PHP itself as the templating language.",
+            "homepage": "https://github.com/auraphp/Aura.View",
+            "keywords": [
+                "Escape",
+                "escaper",
+                "escaping",
+                "template",
+                "template view",
+                "two step view",
+                "two-step view",
+                "twostep view",
+                "view"
+            ],
+            "time": "2016-08-17 17:42:35"
+        },
+        {
+            "name": "container-interop/container-interop",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
+                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "time": "2014-12-30 15:22:37"
+        },
+        {
+            "name": "fusible/view-provider",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fusible/fusible.view-provider.git",
+                "reference": "8d33ed12b315bedd1d7c59bbf08d0bdf1d0846f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fusible/fusible.view-provider/zipball/8d33ed12b315bedd1d7c59bbf08d0bdf1d0846f9",
+                "reference": "8d33ed12b315bedd1d7c59bbf08d0bdf1d0846f9",
+                "shasum": ""
+            },
+            "require": {
+                "aura/di": "~3.0",
+                "aura/html": "^2.0",
+                "aura/view": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fusible\\ViewProvider\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jake johns",
+                    "email": "jake@jakejohns.net"
+                }
+            ],
+            "description": "Aura\\View Provider for Aura\\Di",
+            "homepage": "https://github.com/fusible/fusible.view-provider",
+            "time": "2016-04-11 18:41:52"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": []
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2016-04-29 12:21:54"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06 14:39:51"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-09-19 16:02:08"
+        },
+        {
+            "name": "zendframework/zend-diactoros",
+            "version": "1.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-diactoros.git",
+                "reference": "a60da179c37f2c4e44ef734d0b92824a58943f7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/a60da179c37f2c4e44ef734d0b92824a58943f7f",
+                "reference": "a60da179c37f2c4e44ef734d0b92824a58943f7f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 || ^7.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "~1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6 || ^5.5",
+                "squizlabs/php_codesniffer": "^2.3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev",
+                    "dev-develop": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Diactoros\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://github.com/zendframework/zend-diactoros",
+            "keywords": [
+                "http",
+                "psr",
+                "psr-7"
+            ],
+            "time": "2016-09-07 17:57:29"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
